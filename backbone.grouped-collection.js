@@ -8,6 +8,7 @@
   if ((!_  || !Backbone) && (typeof require !== 'undefined')) {
     _ = require('underscore');
     Backbone = require('backbone');
+    Backbone.VirtualCollection = require('backbone-virtual-collection');
   }
 
   /**
